@@ -1,0 +1,33 @@
+{
+  "manifest_version": 2,
+  "name": "MATSMY",
+  "version": "1.0",
+
+  "description": "Smiley spam",
+
+  "icons": {
+    "48": "icons/48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mattermost.takima.io/*"],
+      "js": ["main.js"]
+    }
+  ],
+
+  "permissions": [
+    "*://*.mattermost.takima.io/",
+    "cookies",
+    "tabs"
+  ],
+
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "web_accessible_resources": [
+    "assets/action.png"
+  ]
+}
