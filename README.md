@@ -1,6 +1,8 @@
 # matsmy
 Overwhelm mattermost message of emoji :boom::blush:
 
+![Demo](./demo.gif)
+
 # Installation
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension#Trying_it_out
 
