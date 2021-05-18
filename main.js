@@ -1,6 +1,6 @@
 const PREFIX = "[MATSMY]";
 const ASK_TOKEN = "ask_token";
-const REACTIONS_ENDPOINT = "https://mattermost.takima.io/api/v4/reactions";
+const REACTIONS_ENDPOINT = `${window.location.hostname}/api/v4/reactions`;
 let xCsrfToken = "";
 let lastHref = "";
 let lastLength = 0;
