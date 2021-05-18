@@ -1,0 +1,28 @@
+{
+  "name": "matsmy",
+  "version": "1.0.0",
+  "description": "Overwhelm mattermost message of emoji",
+  "main": "main.js",
+  "scripts": {
+    "start": "web-ext run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slayug/matsmy.git"
+  },
+  "keywords": [
+    "mattermost",
+    "emoji",
+    "message"
+  ],
+  "author": "Slayug",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Slayug/matsmy/issues"
+  },
+  "homepage": "https://github.com/Slayug/matsmy#readme",
+  "devDependencies": {
+    "web-ext": "^6.1.0"
+  }
+}

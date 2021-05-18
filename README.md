@@ -3,10 +3,17 @@ Overwhelm mattermost message of emoji :boom::blush:
 
 ![Demo](./demo.gif)
 
-# Installation
+## Installation
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Your_first_WebExtension#Trying_it_out
 
-# How to
+## Dev environment
+Run extension on your Firefox
+```bash
+npm install
+npm start
+```
+
+## How to
 Click on <img alt="action" src="assets/action.png"> button close to the target message.  
 
 
