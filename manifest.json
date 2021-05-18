@@ -11,13 +11,13 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.mattermost.takima.io/*"],
+      "matches": ["<all_urls>"],
       "js": ["main.js"]
     }
   ],
 
   "permissions": [
-    "*://*.mattermost.takima.io/",
+    "<all_urls>",
     "cookies",
     "tabs"
   ],
